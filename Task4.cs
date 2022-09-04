@@ -1,21 +1,14 @@
-﻿/* //Напишите цикл, который принимает на вход два числа (A и B) и возводит число A в натуральную степень B.
+﻿//Напишите цикл, который принимает на вход два числа (A и B) и возводит число A в натуральную степень B.
 
- Console.WriteLine("Enter first number: " );
- int a = int.Parse(Console.ReadLine());
+Console.Write("Enter first number: " );
+double a = Convert.ToDouble(Console.ReadLine());
 
- Console.WriteLine("Enter two number: ");
- int b = int.Parse(Console.ReadLine());
+Console.Write("Enter two number: ");
+double b = Convert.ToDouble(Console.ReadLine());
 
- int fun(int a)
- {
-    int sum = 0;
-    for (int i = a; i <= b; ++i)
-    {
-        sum+= i;
-    }
-    return sum;
- }
+double stepen = Math.Pow(a, b);
+  {
+  Console.WriteLine("Stepen numbers A from B equally: " + stepen);
+  }
 
- Console.WriteLine(fun(a)); */
-
- 
+//Напишите программу, которая принимает на вход число и выдаёт сумму цифр в числе
