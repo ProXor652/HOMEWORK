@@ -11,7 +11,7 @@ double stepen = Math.Pow(a, b);
   Console.WriteLine("Stepen numbers A from B ravna: " + stepen);
   } */
 
-//Напишите программу, которая принимает на вход число и выдаёт сумму цифр в числе
+/* //Напишите программу, которая принимает на вход число и выдаёт сумму цифр в числе
 
 Console.WriteLine("Enter number: ");
 int a = Convert.ToInt32(Console.ReadLine());
@@ -32,4 +32,31 @@ int a = Convert.ToInt32(Console.ReadLine());
   }
 
 int sum = Sum(a);
-Console.WriteLine("Sum number: " + sum);
+Console.WriteLine("Sum number: " + sum); */
+
+/* //Напишите программу, которая задаёт массив из 8 элементов и выводит их на экран.
+
+void FillArray(int[] collection)
+{
+    int lenght = collection.Length;
+    int index = 0;
+    while(index < lenght)
+    {
+        collection[index] = new Random().Next(0,9);
+        index++;
+    }
+}
+
+void PrintArray(int[] col)
+{
+    int count = col.Length;
+    int position = 0;
+    while(position < count)
+    {
+        Console.Write(col[position] + ",");
+        position++;
+    }
+}
+int[] array = new int[8];
+FillArray(array);
+PrintArray(array); */
